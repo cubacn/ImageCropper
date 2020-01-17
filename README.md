@@ -14,6 +14,48 @@ This component will be helpful for processing the original image.
 0. Provided a simple API for using the component
 0. Provided some options for customize the component appearance, cropping area, image quality etc
 0. Reviewing the cropping result in real time
+
+#### Installation <a name="installation"></a>
+
+The add-on can be added to your project in one of the ways described below. Installation from the Marketplace is the simplest way. The last version of the add-on compatible with the used version of the platform will be installed.
+Also, you can install the add-on by coordinates choosing the required version of the add-on from the table.
+
+In case you want to install the add-on by manual editing or by building from sources see the complete add-ons installation guide in [CUBA Platform documentation](https://doc.cuba-platform.com/manual-latest/manual.html#app_components_usage).
+
+####  From the Marketplace <a name="from-the-marketplace"></a>
+
+1. Open your application in CUBA Studio. Check the latest version of CUBA Studio on the [CUBA Platform site](https://www.cuba-platform.com/download/previous-studio/).
+2. Go to *CUBA -> Marketplace* in the main menu.
+
+ ![marketplace](img/marketplace.png)
+
+3. Find the ImageCropper add-on there.
+
+ ![addons](img/addons.png)
+
+4. Click *Install* and apply the changes.
+The add-on corresponding to the used platform version will be installed.
+
+#####  By coordinates <a name="by-coordinates"></a>
+
+1. Open your application in CUBA Studio. Check the latest version of CUBA Studio on the [CUBA Platform site](https://www.cuba-platform.com/download/previous-studio/).
+2. Go to *CUBA -> Marketplace* in the main menu.
+3. Click the icon in the upper-right corner.
+
+ ![by-coordinates](img/by-coordinates.png)
+
+4. Paste the add-on coordinates in the corresponding field as follows:
+
+ `cubacn.cmp.crop:cubacnimgcrop-global:<add-on version>`
+
+ where `<add-on version>` is compatible with the used version of the CUBA platform.
+
+ | Platform Version | Add-on Version |
+|------------------|----------------|
+|7.1.x             | 1.1.1          |
+
+5. Click *Install* and apply the changes. The add-on will be installed to your project.
+
      
 #### Screenshot
 ![image](https://github.com/cubacn/ImageCropper/blob/master/demoImage/screenshot.png)
