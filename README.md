@@ -27,11 +27,11 @@ In case you want to install the add-on by manual editing or by building from sou
 1. Open your application in CUBA Studio. Check the latest version of CUBA Studio on the [CUBA Platform site](https://www.cuba-platform.com/download/previous-studio/).
 2. Go to *CUBA -> Marketplace* in the main menu.
 
- ![marketplace](img/marketplace.png)
+ ![marketplace](https://github.com/cuba-platform/saml-addon/blob/master/img/marketplace.png)
 
 3. Find the ImageCropper add-on there.
 
- ![addons](img/addons.png)
+ ![addons](https://github.com/cuba-platform/saml-addon/blob/master/img/addons.png)
 
 4. Click *Install* and apply the changes.
 The add-on corresponding to the used platform version will be installed.
@@ -42,7 +42,7 @@ The add-on corresponding to the used platform version will be installed.
 2. Go to *CUBA -> Marketplace* in the main menu.
 3. Click the icon in the upper-right corner.
 
- ![by-coordinates](img/by-coordinates.png)
+ ![by-coordinates](https://github.com/cuba-platform/saml-addon/blob/master/img/by-coordinates.png)
 
 4. Paste the add-on coordinates in the corresponding field as follows:
 
