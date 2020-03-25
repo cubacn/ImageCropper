@@ -4,8 +4,8 @@ buildscript {
     ext.aliRepo=[
             snapshot: 'https://repo.rdc.aliyun.com/repository/72077-snapshot-057BdJ/',
             release: 'https://repo.rdc.aliyun.com/repository/72077-release-FWXfLw/',
-            username :rootProject.hasProperty("skdAaliRepo.UserName")?rootProject["skdAaliRepo.UserName"]:"",
-            password :rootProject.hasProperty("skdAaliRepo.Password")?rootProject["skdAaliRepo.Password"]:""
+            username :rootProject.hasProperty("skd.repo.username")?rootProject["skd.repo.username"]:"",
+            password :rootProject.hasProperty("skd.repo.password")?rootProject["skd.repo.password"]:""
     ]
     repositories {
 
